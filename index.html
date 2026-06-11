@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nómade Café — Café de especialidad en el corazón de la ciudad." />
+  <title>Nómade Café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="#" class="nav__logo">Nómade</a>
+    <ul class="nav__links">
+      <li><a href="#menu">Menú</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+
+  <section class="hero">
+    <p class="hero__eyebrow">Café de especialidad</p>
+    <h1 class="hero__title">Un lugar para<br><em>quedarse.</em></h1>
+    <a href="#menu" class="btn">Ver menú</a>
+  </section>
+
+
+  <section class="section" id="menu">
+    <h2 class="section__title">Menú</h2>
+    <div class="cards">
+
+      <div class="card">
+        <h3>Espresso & Filtrado</h3>
+        <p>Espresso, cortado, americano y métodos manuales con granos de origen único.</p>
+        <span>Desde $800</span>
+      </div>
+
+      <div class="card">
+        <h3>Desayunos</h3>
+        <p>Tostadas artesanales, granola casera y medialunas horneadas cada mañana.</p>
+        <span>Desde $2.200</span>
+      </div>
+
+      <div class="card">
+        <h3>Pastelería</h3>
+        <p>Tortas, cookies y tartas elaboradas diariamente. Sin conservantes.</p>
+        <span>Desde $1.400</span>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="section section--dark" id="nosotros">
+    <h2 class="section__title">Nosotros</h2>
+    <p class="about__text">
+      Nómade nació de una obsesión simple: servir un café honesto, sin atajos.
+      Trabajamos con productores de Colombia, Etiopía y Guatemala.
+      Nuestro espacio fue diseñado para que te quedes.
+    </p>
+  </section>
+
+
+  <section class="section" id="testimonios">
+    <h2 class="section__title">Reseñas</h2>
+    <div class="cards">
+
+      <blockquote class="card">
+        <p>"El mejor espresso que tomé en mucho tiempo. El ambiente invita a quedarse horas."</p>
+        <footer>— Laura M.</footer>
+      </blockquote>
+
+      <blockquote class="card">
+        <p>"Trabajo acá casi todos los días. WiFi estable y café con leche que me salva la vida."</p>
+        <footer>— Tomás R.</footer>
+      </blockquote>
+
+      <blockquote class="card">
+        <p>"Hicimos el cumple de mi mamá acá. La atención fue perfecta y el menú, exquisito."</p>
+        <footer>— Valentina S.</footer>
+      </blockquote>
+
+    </div>
+  </section>
+
+
+  <section class="section section--dark" id="contacto">
+    <h2 class="section__title">Contacto</h2>
+    <div class="contact">
+      <div class="contact__info">
+        <p><strong>Dirección</strong><br>Av. Corrientes 1842, CABA</p>
+        <p><strong>Horario</strong><br>Lun–Vie 7:00–21:00<br>Sáb–Dom 8:00–20:00</p>
+        <p><strong>Email</strong><br><a href="mailto:hola@nomadecafe.ar">hola@nomadecafe.ar</a></p>
+      </div>
+      <form class="form" id="contactForm">
+        <input type="text" placeholder="Nombre" required />
+        <input type="email" placeholder="Email" required />
+        <textarea rows="4" placeholder="Mensaje" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <p>© 2025 Nómade Café</p>
+    <div class="footer__links">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
