@@ -1,6 +1,5 @@
 document.querySelectorAll('.nav__links a').forEach(link => {
   link.addEventListener('click', () => {
-    // espacio para lógica mobile futura
   });
 });
 
